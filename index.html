@@ -98,6 +98,27 @@
         font-size: 1.2em;
       }
 
+      /* MOBILE */
+      @media (max-width: 600px) {
+        body {
+          font-size: 1.3rem;
+        }
+        .cover h1 {
+          font-size: 2.5em;
+        }
+        .title {
+          font-size: 1.8em;
+        }
+        .speech,
+        .burst,
+        .caption {
+          font-size: 1.4rem;
+        }
+        .panel {
+          padding: 20px 15px;
+        }
+      }
+
       /* LEGEND */
       .legend {
         background: black;
@@ -328,7 +349,13 @@
         <img
           src="ai.png"
           alt="Ryan beard comic"
-          style="width: 500px; height: auto; display: block; margin: 15px auto"
+          style="
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+          "
         />
       </div>
 
@@ -375,7 +402,13 @@
         <img
           src="goodbye.jpg"
           alt="Ryan beard comic"
-          style="width: 500px; height: auto; display: block; margin: 15px auto"
+          style="
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+          "
         />
       </div>
     </div>
